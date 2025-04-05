@@ -49,6 +49,7 @@
     "test:build:web": "node ./scripts/proxy-browser-test.js",
     "test:build:esm": "node ./scripts/proxy-browser-test.js",
     "watch:test": "jest --watch",
+    "start": "node src/server/index.js",
     "generate-parser": "node ./dist/generate-custom-parser.js"
   },
   "engines": {
